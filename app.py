@@ -2,8 +2,8 @@ import os
 import openai
 import streamlit as st
 from streamlit_chat import message
-from embedchain import OpenSourceApp  , App
-from apikey import OPENAI_API_KEY
+from embedchain import App #, OpenSourceApp 
+# from apikey import OPENAI_API_KEY
 
 
 # Create a streamlit app title and description
